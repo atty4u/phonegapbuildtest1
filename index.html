@@ -1,5 +1,3 @@
-<script src="phonegap.js"></script>
-
 hello world
 <BR>
 <BR>
@@ -9,9 +7,19 @@ hello world
   var name = "Thomas";
   //alert(name);
   var p = navigator.plugins;
-  alert("p = " + p);
+//  console.log("p");
+//  console.log(p);
+//  console.log(p.length);
+  alert("p");
+  alert(p);
+  alert(p.length);
+  for (i=0; i<p.length;i++) {
+  	//console.log(p[i].name);
+  	alert(p[i].name);
+  }
+//  alert("p = " + p);
   var bgGeo = navigator.plugins.backgroundGeoLocation;
-  alert("bgGeo = " + bgGeo);
+//  alert("bgGeo = " + bgGeo);
 </script>
 
 <BR>
