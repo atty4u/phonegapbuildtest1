@@ -17,4 +17,6 @@
         Thomas Deaton (aka thomas) 
     </author>
 
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    
 </widget>
